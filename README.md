@@ -16,24 +16,24 @@ Este projeto é o frontend de um aplicativo financeiro, construído com Vue.js e
 * Relatórios detalhados em formato de tabela e gráficos
 
 **Instalação:**
-1. Clone este repositório:
+#1. Clone este repositório:
    ```bash
    git clone https://github.com/MatheusAlvesDevi/FrontEnd-Vue.js.git
 
 **Encontre a pasta do projeto:**
-2. Comando para rodar chegar no diretório:
+#2. Comando para rodar chegar no diretório:
    ```bash
    cd "projeto-finances-client"
 
 
    **DEPÊNCIAS:**
-3. Instale as depências:
+#3. Instale as depências:
    ```bash
    npm i
 
 
 
 **RODE O PROJETO:**
-4. Comando para rodar o projeto:
+#4. Comando para rodar o projeto:
    ```bash
    npm run dev
