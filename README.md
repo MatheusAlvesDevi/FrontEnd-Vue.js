@@ -1,19 +1,21 @@
-# FrontEnd Vue.js - Myfinances
+## Frontend Vue.js com Tailwind CSS para Gerenciamento Financeiro
 
-Este repositório contém o código fonte do frontend de um aplicativo que se integra com uma API Laravel. Utilizando Vue.js, a aplicação consome dados da API para exibir informações sobre o banco de dados e permitir ações do usuário como cirar, adicionar e remover. As principais tecnologias empregadas incluem Vue.js,JavaScrpit, HTML, CSS para gerenciamento de estado, e tailwind para criar uma interface visual atraente.
+**Descrição:**
 
-1. clone the repósitory
-```bash
-git clone https://github.com/MatheusAlvesDevi/FrontEnd-Vue.js.git
+Este projeto é o frontend de um aplicativo financeiro, construído com Vue.js e estilizado com Tailwind CSS. Ele consome uma API RESTful para fornecer uma interface moderna e intuitiva para gerenciar suas finanças.
 
-2. Access the project folder
-```bash
-$ cd projeto-finances-client
+**Tecnologias:**
+* Vue.js
+* Vue Router
+* Vuex
 
-3.  Download dependencies
-```bash
-$ npm i
+**Funcionalidades:**
+* Dashboard personalizável com gráficos interativos
+* Formulários intuitivos para cadastro e edição de transações
+* Gerenciamento de categorias com interface visual clara
+* Relatórios detalhados em formato de tabela e gráficos
 
-4.  Execute
-```bash
-$ npm run dev
+**Instalação:**
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/MatheusAlvesDevi/FrontEnd-Vue.js.git
