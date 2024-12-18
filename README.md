@@ -25,10 +25,12 @@ Este projeto é o frontend de um aplicativo financeiro, construído com Vue.js e
    ```bash
    cd "projeto-finances-client"
 
+
    **DEPÊNCIAS:**
 3. Instale as depências:
    ```bash
    npm i
+
 
 
 **RODE O PROJETO:**
