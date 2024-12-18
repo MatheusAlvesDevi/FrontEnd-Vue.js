@@ -1,0 +1,244 @@
+.dark-theme {
+  background-color: #d1c5c5;
+  color: #ffffff;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.finance-container {
+  background-color: #dbd5d5;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.entrada {
+  background-color: #e8f5e9;
+  color: #388e3c;
+}
+
+.saida {
+  background-color: #ffebee;
+  color: #d32f2f;
+}
+
+.value {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.type {
+  font-weight: bold;
+  margin-right: 15px; /* Distância entre o valor e o sinal */
+}
+
+.btn-delete {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 0.9rem; /* Diminui o tamanho do botão */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-delete:hover {
+  background-color: #ff1a1a;
+}
+
+.list-group-item:hover {
+  background-color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  background-color: #ffffff;
+  color: #ffffff;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #1f1f1f;
+  padding: 15px;
+}
+
+nav a {
+  color: #ffffff;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  padding: 125px;
+}
+
+.transaction-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Isso garante que eles fiquem nos extremos */
+}
+
+.transaction-header h4 {
+  margin: 0;
+}
+
+.transaction-header a {
+  text-decoration: none;
+  color: #2bff00; /* Cor para o link */
+  font-weight: bold;
+}
+
+.transaction-header a:hover {
+  text-decoration: underline;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px; /* Espaço entre o input e o seletor */
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.select-type {
+  color: gray;
+}
+
+.select-type option {
+  color: black;
+}
+
+.select-type:invalid {
+  color: gray; /* Placeholder com cor cinza */
+}
+
+.form-control {
+  color: gray; /* Placeholder com cor cinza */
+}
+
+.form-control option {
+  color: black; /* Texto das opções será preto */
+}
+
+.form-control option:disabled {
+  color: gray; /* Placeholder cinza até o usuário selecionar algo */
+}
+
+.dark-theme {
+  background-color: gray;
+  color: #ffffff;
+  width: 1100px;
+  min-height: 50vh;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.finance-container {
+  background-color: #1f1f1f;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.entrada {
+  background-color: #e8f5e9;
+  color: #388e3c;
+}
+
+.saida {
+  background-color: #ffebee;
+  color: #d32f2f;
+}
+
+.value {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.type {
+  font-weight: bold;
+  margin-right: 15px; /* Distância entre o valor e o sinal */
+}
+
+.action-buttons {
+  display: flex;
+  gap: 10px; /* Espaço entre os botões */
+}
+
+.btn-delete {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-delete:hover {
+  background-color: #ff1a1a;
+}
+
+.btn-edit {
+  background-color: #4CAF50; /* Cor verde para o botão Editar */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.btn-edit:hover {
+  background-color: #45a049;
+}
+
+.list-group-item:hover {
+  background-color: #333333;
+}
+
+.container-about {
+  color:#1f1f1f
+}
