@@ -1,4 +1,4 @@
-## Frontend Vue.js com Tailwind CSS para Gerenciamento Financeiro
+## Frontend Vue.js para Gerenciamento Financeiro
 
 **Descrição:**
 
